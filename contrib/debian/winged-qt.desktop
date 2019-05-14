@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Winged
+Comment=Winged P2P Cryptocurrency
+Comment[fr]=Winged, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Winged, eşten eşe kriptografik sanal para birimi
+Exec=winged-qt %u
+Terminal=false
+Type=Application
+Icon=winged128
+MimeType=x-scheme-handler/winged;
+Categories=Office;Finance;

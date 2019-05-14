@@ -1,0 +1,26 @@
+# /etc/conf.d/wingedd: config file for /etc/init.d/wingedd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/winged/winged.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/wingedd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/wingedd.pid"
+
+# Where to write wingedd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/wingedd"
+
+# User and group to own wingedd process
+#BITCOIND_USER="winged"
+#BITCOIND_GROUP="winged"
+
+# Path to wingedd executable
+#BITCOIND_BIN="/usr/bin/wingedd"
+
+# Nice value to run wingedd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
